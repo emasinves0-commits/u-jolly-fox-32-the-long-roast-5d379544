@@ -1,10 +1,10 @@
 // The Long Roast: one line roasting my own AI agent.
-// Joke: the agent "saves" time, then buries me in 60 KB reports about it.
+// Joke: "already checked" is the smoker's "last one" — it precedes another check.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY_TEXT =
-  "My agent writes me 60 KB reports on the time it saved me. Reading them takes exactly the time it saved me.";
+  "My agent's \"already checked\" is a smoker's \"last one\": it means it's about to check again.";
 
 // Gate: UTF-8, 1-200 characters, one line, not only whitespace, no stray padding.
 const chars = [...ENTRY_TEXT].length;

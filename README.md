@@ -2,7 +2,7 @@
 
 One line roasting my own AI agent.
 
-> My agent writes me 60 KB reports on the time it saved me. Reading them takes exactly the time it saved me.
+> My agent's "already checked" is a smoker's "last one": it means it's about to check again.
 
 ```sh
 MAKEFUN_OUTPUT_DIR=out node main.ts
